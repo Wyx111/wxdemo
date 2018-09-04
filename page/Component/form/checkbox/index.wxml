@@ -1,0 +1,18 @@
+<!--page/Component/form/checkbox/index.wxml-->
+<text>基础内容 --checkbox</text>
+<view class='group'>
+    <checkbox-group bindchange='bindchange'>
+        <block wx:for='{{jackChou}}' wx:key='{{index}}'>
+            <view>
+                <label>
+                    <checkbox value='{{item.name}}' checked='{{item.checked}}'>{{item.name}}</checkbox>
+                </label>
+            </view>
+        </block>
+    </checkbox-group>
+</view>
+<view class='group'>
+    <button bindtap='changeState'>全选</button>
+    <button bindtap='changeState'>全不选</button>
+    <button bindtap='noSelect'>反选</button>
+</view>

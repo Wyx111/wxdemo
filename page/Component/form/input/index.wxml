@@ -1,0 +1,14 @@
+<!--page/Component/form/input/index.wxml-->
+<text>表单组件 --input</text>
+<view class='group'>
+    <input value='' placeholder='placeholder和input原生组件相同' placeholder-style='color:red' disabled='true'></input>
+    <input value="自动获取焦点" placeholder='最大长度是6'  maxlength='6' focus='true'></input>
+    <input type='text' value="输入框右下角会变成发送" confirm-type='send'></input>
+    <input type='text' placeholder='点击按钮；会获取焦点'  focus='focus'></input>
+    <button bindtap='bindtap' type='primary' size='mini'>点击使input获取焦点</button>
+    <input value='' bindinput='bindinput' placeholder='输入的内容会在下面展示'></input>
+    <view class='text'>{{val}}</view>
+    <input type='number' placeholder='数字输入键盘'></input>
+    <input type='idcard' placeholder='身份证输入键盘'></input>
+    <input type='digit' placeholder='带小数点的输入键盘'></input>
+</view>

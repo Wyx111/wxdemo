@@ -1,0 +1,14 @@
+/* page/Component/map/map/index.wxss */
+#map{
+    width: 95%;
+    height: 600rpx;
+    background-color: red;
+    margin: 0 auto;
+}
+text{
+    color: #666;
+    font-size: 20px;
+}
+button{
+    margin-top:10px;
+}

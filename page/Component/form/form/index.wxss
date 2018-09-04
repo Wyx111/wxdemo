@@ -1,0 +1,40 @@
+/* page/Component/form/form/index.wxss */
+text{
+    color: #cccccc;
+    text-align: center;
+}
+.group{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+input{
+    border: 2px solid #ccc;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+   font-size: 12px;
+   width:500rpx;
+}
+picker{
+    margin-left: 20px;
+    border:1px solid #666;
+    border-radius: 5px;
+}
+.float label,input,picker{
+    float: left;
+    margin-top: 10px;
+}
+.title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+switch,radio{
+    margin-top: 10px;
+}
+.sex{
+    margin-left: 40px;
+}
+button{
+    margin-top: 30px;
+}

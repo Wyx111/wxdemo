@@ -1,0 +1,7 @@
+/* page/Component/content/rich-text/index.wxss */
+text{
+    color: #666666
+}
+.group{
+    margin-top: 30px;
+}

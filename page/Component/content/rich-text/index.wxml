@@ -1,0 +1,3 @@
+<!--page/Component/content/rich-text/index.wxml-->
+<text>基础内容 --rich-text(富文本)</text>
+<rich-text nodes='{{nodes}}'></rich-text>

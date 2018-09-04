@@ -1,0 +1,24 @@
+/* page/Component/form/picker/index.wxss */
+text{
+    color: #cccccc
+}
+.group{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 16px;
+    color: #666666
+}
+picker view{
+    border: 1px solid #666666;
+    width: 80%;
+    padding: 3px;
+
+}
+picker view text{
+    color: red;
+}
+.middle{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

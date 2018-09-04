@@ -1,0 +1,12 @@
+<!--page/Component/content/text/index.wxml-->
+<text>基础内容 --text</text>
+<view class='group'>
+    <text>{{text}}</text>
+    <block wx:for='{{texts}}' wx:key='{{index}}'>
+        <view>
+            <text>{{item}}</text>
+        </view>
+    </block>
+    <button bindtap='add'>add line</button>
+    <button bindtap='remove'>remove line</button>
+</view>

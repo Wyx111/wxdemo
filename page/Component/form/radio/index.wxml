@@ -1,0 +1,13 @@
+<!--page/Component/form/radio/index.wxml-->
+<text>表单组件 --radio</text>
+<view>
+    <radio-group  bindchange='radioChange'>
+        <view wx:for='{{colors}}' wx:key='index'>
+            <label id='item.name'>
+                {{item.name}}
+            </label>
+            <radio color='{{item.color}}' value='{{item.name}}'></radio>
+        </view>
+    </radio-group>
+</view>
+<view>你的国籍是：{{love}}</view>

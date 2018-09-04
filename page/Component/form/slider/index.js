@@ -1,0 +1,13 @@
+Page({
+    data:{
+        one:20,
+        two:40,
+        three:150,
+    },
+    bindchange:function(e){
+        console.log(e)
+    },
+    bindchanging:function(e){
+        console.log(e)
+    }
+})

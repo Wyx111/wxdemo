@@ -1,0 +1,12 @@
+<!--page/Component/form/button/index.wxml-->
+<text>表单组件 --button</text>
+<view class='group'>
+    <button size='mini' type='primary' disabled='{{disabled}}' loading='{{loading}}' plain='{{plain}}'>mini primary</button>
+    <button size='mini' type='default' disabled='{{disabled}}' loading='{{loading}}' plain='{{plain}}'>mini default</button>
+    <button size='default' type='warn' disabled='{{disabled}}' loading='{{loading}}' plain='{{plain}}'>default warn</button>
+</view>
+<view class='group'>
+    <button bindtap='changeState' id='disabled'>点击设置disbled</button>
+    <button bindtap='changeState' id='plain'>点击设置plain</button>
+    <button bindtap='changeState' id='loading'>点击设置loading</button>
+</view>

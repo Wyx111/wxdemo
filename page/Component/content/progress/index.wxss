@@ -1,0 +1,12 @@
+/* page/Component/content/progress/index.wxss */
+text{
+    color: #666666
+}
+.group{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30rpx;
+}
+progress{
+    margin-top: 10px;
+}

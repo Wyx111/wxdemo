@@ -1,0 +1,21 @@
+<!--page/Component/content/icon/index.wxml-->
+<text>基础内容 --icon</text>
+<view class='group'>
+    <block wx:for="{{iconsizes}}" wx:key='{{index}}'>
+        <icon type='success' size='{{item}}'></icon>
+        <!-- <view>size:{{item}}</view> -->
+    </block>
+</view>
+<view class='ggg'></view>
+<view class='group'>
+    <block wx:for='{{types}}' wx:key='{{index}}'>
+        <icon type='{{item}}' size='40' ></icon>
+        <!-- <view>type:{{item}}</view> -->
+    </block>
+</view>
+<view class='group'>
+    <block wx:for='{{iconColor}}' wx:key='{{index}}'>
+        <icon type='success' size='40' color='{{item}}'></icon>
+        <!-- <view>type:{{item}}</view> -->
+    </block>
+</view>

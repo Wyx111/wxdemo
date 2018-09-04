@@ -1,0 +1,22 @@
+/* page/Component/view/view/index.wxss */
+text{
+    color: #666666
+}
+.box{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+.one{
+    background-color: red
+}
+.two{
+    background-color: green
+}
+.three{
+    background-color: blue
+}
+.flex-wrp{
+    display: flex;
+}

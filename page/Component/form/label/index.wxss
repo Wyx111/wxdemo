@@ -1,0 +1,24 @@
+/* page/Component/form/label/index.wxss */
+text{
+    color: #cccccc;
+}
+.group{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+view{
+    margin-top: 30px;
+}
+view label{
+    margin-right: 30px;
+}
+.footer{
+    margin: 0 auto;
+    width: 80%;
+    font-size: 14px;
+    color: #666666;
+    margin-top: 30px;
+    text-align: center;
+}

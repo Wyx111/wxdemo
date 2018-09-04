@@ -1,0 +1,12 @@
+/* page/Component/form/checkbox/index.wxss */
+text{
+    color: #666666;
+}
+.group{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.group button{
+    margin-top: 10px;
+}

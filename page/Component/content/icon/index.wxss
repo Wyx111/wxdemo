@@ -1,0 +1,10 @@
+/* page/Component/content/icon/index.wxss */
+text{
+    color: #666;
+    font-size: 20px;
+}
+.group{
+    width: 90%;
+    text-align: center;
+    margin-top: 30px;
+}

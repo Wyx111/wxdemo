@@ -1,0 +1,36 @@
+<!--page/Component/form/picker/index.wxml-->
+<text>表单组件 --picker</text>
+<view class='group'>
+    普通单列选择器
+    <picker mode='selector' range='{{country}}' value='{{index}}' bindchange='onebindchange'>
+        <view>你的国家是：
+            <text>{{country[index]}}</text>
+        </view>
+    </picker>
+</view>
+<view class='group'>
+    普通多列选择器
+    <picker mode='multiSelector' range='{{twodarray}}' value='{{index}}' bindchange='twobindchange' bindchange='bindcolumnchange'>
+        <view>你选择的动物分别是：{{twodarray[0][twodarrayIndex[0]]}}</view>
+        <view class='middle'>你选择的动物分别是：{{twodarray[1][twodarrayIndex[1]]}}</view>
+        <view>你选择的动物分别是：{{twodarray[2][twodarrayIndex[2]]}}</view>
+    </picker>
+</view>
+<view class='group'>
+    时间选择器
+    <picker mode='time' start='{{start}}' end='{{end}}' bindchange='timebindchange'>
+        <view>{{nowTime}}</view>
+    </picker>
+</view>
+<view class='group'>
+    日期选择器
+    <picker mode='date' bindchange='datebindchange' fields='day'>
+        <view>{{nowDate}}</view>
+    </picker>
+</view>
+<view class='group'>
+    省市区选择器
+    <picker mode='region' bindchange='regionbindchange'>
+        <view>{{region}}</view>
+    </picker>
+</view>

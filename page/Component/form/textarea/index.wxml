@@ -1,0 +1,8 @@
+<!--page/Component/form/textarea/index.wxml-->
+<text>表单组件 --textarea</text>
+<view class='group'>
+    <textarea placeholder='这是textarea组件,最大输入数20' maxlength='20' placeholder-class='placeholder'></textarea>
+        <textarea placeholder='自动增高' maxlength='200' placeholder-class='placeholder' auto-height='true'></textarea>
+                <textarea placeholder='自动聚焦请输入' maxlength='200' placeholder-class='placeholder' auto-focus='true' bindinput='bindinput' value='{{three}}'></textarea>
+                {{three}}
+</view>

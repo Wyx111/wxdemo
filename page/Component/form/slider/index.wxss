@@ -1,0 +1,9 @@
+/* page/Component/form/slider/index.wxss */
+text{
+    color: #cccccc;
+}
+.group{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}

@@ -1,0 +1,7 @@
+<!--page/Component/map/map/index.wxml-->
+<text>地图组件 --map</text>
+<map id='map' show-location='true' markers='{{ary}}'></map>
+<button type='primary' bindtap='getNowWhere'>获取当前位置的经纬度</button>
+<button type='primary' bindtap='goNowWhere'>移动到当前位置</button>
+<button type='primary' >获取当前位置的经纬度</button>
+<button type='primary' bindtap='includePoints'>缩放当前经纬度</button>

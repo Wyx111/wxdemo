@@ -1,0 +1,32 @@
+<!--page/Component/form/form/index.wxml-->
+<text>表单组件 --form</text>
+<view class='group'>
+    <form>
+        <view class='title'>信息调查</view>
+        <view class='float'>
+            <label>姓名:</label>
+            <input placeholder='请输入姓名'></input>
+        </view>
+        <view class='float'>
+            <label>年龄:</label>
+            <picker range='{{ages}}' bindchange='agebindchange'>{{age}}</picker>
+        </view>
+        <view class='float'>
+            <label class='sex'>性别:</label>
+            <radio-group>
+                <radio>男</radio>
+                <radio>女</radio>
+            </radio-group>
+        </view>
+        <view>
+            <label>家庭住址：</label>
+            <picker mode='region' style='width:340px' bindchange='homebindchange'>{{homewhere}}</picker>
+        </view>
+        <view>
+            <label>婚否：</label>
+            <switch' bindchange='sexbindchange'>{{checked}}</switch>
+        </view>
+        <button type='primary' form-type='submit'>提交</button>
+        <button type='default' form-type='reset'>重置</button>
+    </form>
+</view>

@@ -1,0 +1,8 @@
+<!--page/Component/content/progress/index.wxml-->
+<text>基础内容 --progress</text>
+<view class='group'>
+    <progress show-info='true' percent='20' active='true'></progress>
+    <progress percent='40' stroke-width='8' active='true'></progress>
+    <progress percent='60' activeColor='red' active='true'></progress>
+    <progress percent='100' active='true'  show-info='true'></progress>
+</view>

@@ -1,0 +1,63 @@
+{
+    "pages": [
+        "page/Component/view/scroll-view/index",
+        "page/Component/view/swiper/index",
+        "page/Component/view/movable-view/index",
+        "page/Component/view/cover-view/index",
+        "page/Component/view/view/index",
+        "page/Component/index",
+        "page/Component/form/textarea/index",
+        "page/Component/form/slider/index",
+        "page/Component/form/picker/index",
+        "page/Component/form/switch/index",
+        "page/Component/form/label/index",
+        "page/Component/form/radio/index",
+        "page/Component/form/input/index",
+        "page/Component/form/checkbox/index",
+        "page/Component/form/button/index",
+        "page/Component/form/picker-view/index",
+        "page/Component/form/form/index",
+        "page/Component/map/map/index",
+        "page/Component/content/progress/index",
+        "page/Component/content/rich-text/index",
+        "page/Component/content/text/index",
+        "page/Component/content/icon/index",
+        "page/Component/nav/navigator/index",
+        "page/Component/nav/func-page-nav/index",
+        "page/Component/media/audio/index",
+        "page/Component/media/image/index",
+        "page/Component/media/video/index",
+        "page/Component/media/camera/index",
+        "page/Component/media/live-player/index",
+        "page/Component/media/live-pusher/index",
+        "page/Component/canvas/canvas/index",
+        "page/Component/interact/open-data/index",
+        "page/Component/interact/web-view/index",
+        "page/Component/interact/ad/index",
+        "page/API/index"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#eeeeee",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "api练习",
+        "backgroundColor": "#eeeeee",
+        "backgroundTextStyle": "light",
+        "enablePullDownRefresh": false
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "page/Component/index",
+                "text": "组件",
+                "iconPath": "image/wechat.png",
+                "selectedIconPath": "image/wechatHL.png"
+            },
+            {
+                "pagePath": "page/API/index",
+                "text": "api接口",
+                "iconPath": "image/wechat.png",
+                "selectedIconPath": "image/wechatHL.png"
+            }
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+/* page/Component/form/switch/index.wxss */
+text{
+    color: #cccccc
+}
+.group{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+view{
+    margin-top: 30px;
+}

@@ -1,0 +1,10 @@
+/* page/Component/form/radio/index.wxss */
+text{
+    color: #cccccc;
+}
+view{
+    text-align: center;
+}
+view label{
+    margin-right: 30px;
+}

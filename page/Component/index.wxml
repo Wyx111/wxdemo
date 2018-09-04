@@ -1,0 +1,205 @@
+<!--page/Component/index.wxml-->
+<view class='component'>
+    <view class='header'>
+        <view class='header-title'>小程序组件</view>
+        <view class='header-container'>这是展示小程序组件的DEMO。</view>
+    </view>
+</view>
+<view class='body'>
+    <view bindtap='widgetsToggle' id='view'>
+        <view class='body-title'>
+                <text>视图容器</text>
+                <image src='resources/kind/view.png' class='body-titile-image'></image>
+        </view>
+        <view class="widgets__list {{viewShow ? 'widgets__list_show' : ''}}">
+            <navigator class='body-container' url='/page/Component/view/view/index'>
+                <text>view</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/view/scroll-view/index'>
+                <text>scroll-view</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/view/swiper/index'>
+                <text>swiper</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/view/movable-view/index'>
+                <text>movable-view</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/view/cover-view/index'>
+                <text>cover-view</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+        </view>
+    </view>
+    <view bindtap='widgetsToggle' id='content'>
+        <view class='body-title'>
+                <text>基础内容</text>
+                <image src='resources/kind/content.png' class='body-titile-image'></image>
+        </view>
+        <view class="widgets__list {{contentShow ? 'widgets__list_show' : ''}}">
+            <navigator class='body-container' url='/page/Component/content/icon/index'>
+                <text>icon</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/content/text/index'>
+                <text>text</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/content/rich-text/index'>
+                <text>rich-text</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/content/progress/index'>
+                <text>progress</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+        </view>
+    </view>
+    <view bindtap='widgetsToggle' id='form'>
+        <view class='body-title'>
+                <text>表单组件</text>
+                <image src='resources/kind/form.png' class='body-titile-image'></image>
+        </view>
+        <view class="widgets__list {{formShow ? 'widgets__list_show' : ''}}">
+            <navigator class='body-container' url='/page/Component/form/button/index'>
+                <text>button</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/form/checkbox/index'>
+                <text>checkbox</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/form/form/index'>
+                <text>form</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/form/input/index'>
+                <text>input</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/form/label/index'>
+                <text>label</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/form/picker/index'>
+                <text>picker</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/form/picker-view/index'>
+                <text>picker-view</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/form/radio/index'>
+                <text>radio</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/form/slider/index'>
+                <text>slider</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/form/switch/index'>
+                <text>switch</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/form/textarea/index'>
+                <text>textarea</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+        </view>
+    </view>
+    <view bindtap='widgetsToggle' id='nav'>
+        <view class='body-title'>
+                <text>导航</text>
+                <image src='resources/kind/nav.png' class='body-titile-image'></image>
+        </view>
+        <view class="widgets__list {{navShow ? 'widgets__list_show' : ''}}">
+            <navigator class='body-container' url='/page/Component/nav/navigator/index'>
+                <text>navigator</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/nav/func-page-nav/index'>
+                <text>functional-page-navigator</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+        </view>
+    </view>
+    <view bindtap='widgetsToggle' id='media'>
+        <view class='body-title'>
+                <text>媒体组件</text>
+                <image src='resources/kind/media.png' class='body-titile-image'></image>
+        </view>
+        <view class="widgets__list {{mediaShow ? 'widgets__list_show' : ''}}">
+            <navigator class='body-container' url='/page/Component/media/audio/index'>
+                <text>audio</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/media/image/index'>
+                <text>image</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/media/video/index'>
+                <text>video</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/media/camera/index'>
+                <text>camera</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/media/live-player/index'>
+                <text>live-player</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/media/live-pusher/index'>
+                <text>live-pusher</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+        </view>
+    </view>
+    <view bindtap='widgetsToggle' id='map'>
+        <view class='body-title'>
+                <text>地图</text>
+                <image src='resources/kind/map.png' class='body-titile-image'></image>
+        </view>
+        <view class="widgets__list {{mapShow ? 'widgets__list_show' : ''}}">
+            <navigator class='body-container' url='/page/Component/map/map/index'>
+                <text>map</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+        </view>
+    </view>
+    <view bindtap='widgetsToggle' id='canvas'>
+        <view class='body-title'>
+                <text>画布</text>
+                <image src='resources/kind/canvas.png' class='body-titile-image'></image>
+        </view>
+        <view class="widgets__list {{canvasShow ? 'widgets__list_show' : ''}}">
+            <navigator class='body-container' url='/page/Component/canvas/canvas/index'>
+                <text>canvas</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+        </view>
+    </view>
+    <view bindtap='widgetsToggle' id='interact'>
+        <view class='body-title'>
+                <text>开放能力</text>
+                <image src='resources/kind/interact.png' class='body-titile-image'></image>
+        </view>
+        <view class="widgets__list {{interactShow ? 'widgets__list_show' : ''}}">
+            <navigator class='body-container' url='/page/Component/interact/open-data/index'>
+                <text>open-data</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/interact/web-view/index'>
+                <text>web-view</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+            <navigator class='body-container' url='/page/Component/interact/ad/index'>
+                <text>ad</text>
+                <image src='resources/arrow.png' class='body-son-image'></image>
+            </navigator>
+        </view>
+    </view>
+</view>

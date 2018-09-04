@@ -1,0 +1,21 @@
+/* page/Component/form/textarea/index.wxss */
+text{
+    color: #666666
+}
+.group{
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.group textarea{
+   width: 100%;
+   background-color: #666666;
+   height: 60px;
+   color: #ffffff;
+   line-height: 60px;
+   font-size: 20px;
+   margin-top: 30px;
+}
+.placeholder{
+    line-height: 60px;
+    color: #fff
+}

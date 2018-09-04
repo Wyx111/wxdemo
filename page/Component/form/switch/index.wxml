@@ -1,0 +1,16 @@
+<!--page/Component/form/switch/index.wxml-->
+<text>表单组件 --switch</text>
+<view class='group'>
+    <view>
+        <switch checked='true'>默认选中</switch>
+    </view>
+    <view style='border:1px solid #000;padding:10px;text-align:center'>
+        <switch type='{{type}}' checked='true'>
+        type:{{type}}
+        </switch>
+         <button style='margin-top:10px;' bindtap='bindtap'>一键切换风格</button>
+    </view>
+    <view>
+        <switch bindchange='changeSex' checked>{{sex}}</switch>
+    </view>
+</view>
